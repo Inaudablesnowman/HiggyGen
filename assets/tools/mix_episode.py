@@ -6,6 +6,10 @@ Fixes the "patchy blocks of audio" problem:
   2. 20 ms fade-in / 40 ms fade-out on every clip (no clicks at cut points)
   3. a continuous low room-tone bed under the whole episode (no dead-silent gaps)
   4. final loudness set for TikTok (-14 LUFS integrated, -1.5 dBTP true peak)
+  5. NO TALKING OVER EACH OTHER: leading/trailing silence is trimmed from every clip,
+     "start": "auto" places a line right after the previous one (+ "gap" seconds),
+     and the script refuses to render if two lines overlap. Set
+     "allow_overlap": true on a clip only for a deliberate interruption.
 
 Usage:
   mix_episode.py timeline.json out.wav
@@ -26,14 +30,38 @@ def main(timeline_path, out_path):
     total = float(tl["duration"])
     bed_db = float(tl.get("bed_db", -42))
     tmp = tempfile.mkdtemp()
+    gap = float(tl.get("gap", 0.25))  # seconds between consecutive lines
+    # trim leading/trailing silence so a file's dead air can't collide with the next line
+    trim = ("silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.05,"
+            "areverse,"
+            "silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.08,"
+            "areverse")
     prepared = []
+    prev_end = None
     for i, c in enumerate(tl["clips"]):
         dst = os.path.join(tmp, f"c{i}.wav")
         run(["ffmpeg", "-y", "-i", c["file"], "-ac", "1", "-ar", "48000",
-             "-af", "loudnorm=I=-16:TP=-1.5:LRA=7,aresample=48000,"
+             "-af", trim + ",loudnorm=I=-16:TP=-1.5:LRA=7,aresample=48000,"
                     "afade=t=in:d=0.02,areverse,afade=t=in:d=0.04,areverse",
              dst])
-        prepared.append((dst, float(c["start"]), float(c.get("gain_db", 0))))
+        dur = float(subprocess.check_output(
+            ["ffprobe", "-v", "error", "-show_entries", "format=duration",
+             "-of", "csv=p=0", dst]))
+        start = c["start"]
+        if start == "auto":  # place right after the previous line plus the gap
+            start = 0.3 if prev_end is None else prev_end + gap
+        start = float(start)
+        if (prev_end is not None and start < prev_end + 0.1
+                and not c.get("allow_overlap", False)):
+            sys.exit(f"OVERLAP: {c['file']} starts at {start:.2f}s but the previous "
+                     f"line speaks until {prev_end:.2f}s. Use \"start\": \"auto\", "
+                     f"move it later, or set \"allow_overlap\": true if intentional.")
+        end = start + dur
+        if end > total:
+            sys.exit(f"{c['file']} ends at {end:.2f}s, past the {total}s duration.")
+        print(f"  {os.path.basename(c['file']):16s} {start:6.2f}s -> {end:6.2f}s")
+        prev_end = end
+        prepared.append((dst, start, float(c.get("gain_db", 0))))
 
     cmd = ["ffmpeg", "-y",
            "-f", "lavfi", "-t", str(total), "-i",
