@@ -1,4 +1,4 @@
-# TIKTOK AFFILIATE: MASTER PLAN + WEEK 1 BIBLE
+# TIKTOK AFFILIATE: MASTER PLAN + WEEK 1 NOTEBOOK
 **Paste this whole file into Claude Code as your starting context.**
 Version 1 | Written 2026-11-15 | Owner: K3
 
@@ -11,7 +11,7 @@ Version 1 | Written 2026-11-15 | Owner: K3
 1. Open Claude Code in an empty folder (suggested: `~/tiktok-affiliate/`).
 2. Save this file there as `MASTER_PLAN.md`.
 3. Paste **Section 12 (Master Kickoff Prompt)** as your first message. It tells Claude Code to read this file and start.
-4. Everything else in here is the reference Claude Code reads from: vision, rules, character bibles, Week 1 episode plan, base prompts, and the improvement loop.
+4. Everything else in here is the reference Claude Code reads from: vision, rules, character notebooks, Week 1 episode plan, base prompts, and the improvement loop.
 
 Claude Code's job is to **improve** the base prompts, not just run them. Section 11 defines how.
 
@@ -114,7 +114,7 @@ Use whatever is connected in the Claude Code session. Check what is available be
 
 - **Possibly connected:** Higgsfield (image/video generation, TikTok publishing helpers, music trends), Buffer (scheduling), Auto DS (TikTok product and video data), Shopify (not needed for this project).
 - **Video models (reported, verify current):** Kling for product geometry and daily free credits, Seedance for credit-efficient daily tests, Veo for hero winners only. **Do not build on Sora** (shut down April 2026, API ending Sept 2026).
-- **Voice:** a free or cheap TTS voice per character, saved as a "voice bible" (voice name, pitch, speed). Check TikTok's rules on AI voices for shop videos before Phase 1.
+- **Voice:** a free or cheap TTS voice per character, saved as a "voice notebook" (voice name, pitch, speed). Check TikTok's rules on AI voices for shop videos before Phase 1.
 - **Editing:** CapCut (free) or ffmpeg for stitching, captions, and sound.
 
 **Cost-cutting rules**
@@ -151,9 +151,9 @@ Output the score and reasoning for each video, e.g. `Hook 9 (motion + text promi
 
 ---
 
-## 8. VISUAL STYLE BIBLES (PASTE INTO EVERY PROMPT FOR THAT SERIES)
+## 8. VISUAL STYLE NOTEBOOKS (PASTE INTO EVERY PROMPT FOR THAT SERIES)
 
-### 8.1 Series 1 style bible: GERALD (3D animated)
+### 8.1 Series 1 style notebook: GERALD (3D animated)
 
 **Look:** original 3D cartoon, soft clay-like materials, warm laundry-room lighting, shallow depth of field, saturated but cozy palette (teal, mustard, warm gray). Not any studio's style or characters. Vertical 9:16. Smooth camera pushes and handheld-feeling whip pans.
 
@@ -165,7 +165,7 @@ Output the score and reasoning for each video, e.g. `Hook 9 (motion + text promi
   - **Lefty:** a lone mismatched gray sock, sweet, always lost.
 - Recurring location: a laundry room with a folded-towel "desk," a rattling dryer, a basket, and the couch next door.
 
-### 8.2 Series 2 style bible: THE HAUNTED CLOSET (short story, cute-spooky)
+### 8.2 Series 2 style notebook: THE HAUNTED CLOSET (short story, cute-spooky)
 
 **Look:** cinematic, moody-but-cozy. Dim blue-violet closet light, warm lamp glow leaking under the door, volumetric dust in light beams, shallow depth of field, slow dolly moves, soft film grain. Cute-spooky, never gory or truly frightening. Vertical 9:16.
 
@@ -175,7 +175,7 @@ Output the score and reasoning for each video, e.g. `Hook 9 (motion + text promi
 - Supporting cast over the week: tangled coats (the Coats), orphan shoes, moths as the "tourists."
 - Setting: one cluttered, overstuffed closet that is much bigger on the inside than it should be.
 
-### 8.3 Series 3 style bible: THE ROOMMATE WARS (UGC-style POV skit)
+### 8.3 Series 3 style notebook: THE ROOMMATE WARS (UGC-style POV skit)
 
 **Look:** looks like a **phone video shot in a real, slightly messy apartment kitchen**: handheld, mild shake, natural window light, tabletop-level POV, quick punch-in zooms like a creator skit. The appliances have **small expressive cartoon faces** (simple eyes on the front panel), photoreal otherwise. **Generic and unbranded**, no logos. Vertical 9:16.
 
@@ -329,7 +329,7 @@ Photoreal kitchen counter, phone-camera look. Two generic unbranded appliances w
 ### 10.2 Video prompt template (per 5-8s clip)
 
 ```
-[STYLE BIBLE for this series: paste from Section 8]
+[STYLE NOTEBOOK for this series: paste from Section 8]
 
 Reference images: [character sheet(s)] (keep faces, proportions, colors, and outfits identical to the references)
 
@@ -401,17 +401,17 @@ Avoid: extra characters, brand logos, readable text other than the on-screen tex
 ## 12. MASTER KICKOFF PROMPT (PASTE THIS INTO CLAUDE CODE FIRST)
 
 ```
-You are my TikTok Shop affiliate growth partner and AI video producer. Read MASTER_PLAN.md in this folder fully before doing anything. It contains the vision, hard rules, three locked storylines, style bibles, Week 1 episode plan, base prompts, and the improvement loop.
+You are my TikTok Shop affiliate growth partner and AI video producer. Read MASTER_PLAN.md in this folder fully before doing anything. It contains the vision, hard rules, three locked storylines, style notebooks, Week 1 episode plan, base prompts, and the improvement loop.
 
 Goal: build a new TikTok account that earns TikTok Shop affiliate commission with AI-generated videos. 3 videos per day, 20-30 seconds each, lowest possible cost per video. We are in Phase 0 (no product links yet), so the three series are entertainment-first: Gerald the Lint Roller, The Haunted Closet, and The Roommate Wars.
 
 Do this now:
-1. Create this folder structure: /characters, /series/gerald, /series/closet, /series/roommates, /episodes, /assets, PLAYBOOK.md, TRACKING_LOG.md. Copy the style bibles and character sheets from MASTER_PLAN.md into the matching series folders as reusable files.
+1. Create this folder structure: /characters, /series/gerald, /series/closet, /series/roommates, /episodes, /assets, PLAYBOOK.md, TRACKING_LOG.md. Copy the style notebooks and character sheets from MASTER_PLAN.md into the matching series folders as reusable files.
 2. Check which tools are available in this session (image/video generation, TikTok, Buffer, web search) and tell me in one short list what you can and cannot do. Do not assume any tool exists.
 3. Be direct and honest. If an idea is weak, risky, or against TikTok rules, say so and propose a fix. Never fabricate stats or results.
 4. Setup rule: during account setup, give me ONE step at a time and wait for me to say "done." Never list several steps in a row. I have not started setup yet. Do not begin it until I say I'm ready.
 5. Then produce Episode 1 for all three series (Gerald Ep 1, Haunted Closet Ep 1, Roommate Wars Ep 1): final script, shot list, improved clip prompts (start from Section 10), voiceover timed to length, caption, 3-5 hashtags, sound suggestion, and Hook/Hold scores. Improve my base prompts instead of copying them. Anything under 8/10 gets rewritten before I see it.
-6. Keep character and style consistency: always attach the series style bible and character reference images to every clip prompt.
+6. Keep character and style consistency: always attach the series style notebook and character reference images to every clip prompt.
 7. Make cost-saving choices by default: short clips, budget-model tests first, reuse assets. Tell me estimated cost per video.
 8. Label every video AI-generated. No real people, no brands, no copyrighted music, no fake claims. The roommate in the Roommate Wars is Trevor and is never shown on screen.
 9. After I report results, update PLAYBOOK.md and TRACKING_LOG.md, and propose one labeled experiment per day.

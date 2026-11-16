@@ -8,4 +8,4 @@ Character reference sheets generated in Higgsfield (gpt_image_2_6, 16:9, medium,
 | Closet | Mortimer + Hank | 3281910c-b149-4535-8b60-269c97d83767 | pending approval |
 | Roommates | Brenda + Doug | 5e506bcc-0b92-46d7-8940-b06a5dd0af62 | pending approval |
 
-Prompts live in each `series/*/STYLE_BIBLE.md`.
+Prompts live in each `series/*/STYLE_NOTEBOOK.md`.

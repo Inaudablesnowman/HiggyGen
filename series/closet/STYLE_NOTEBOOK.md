@@ -1,4 +1,4 @@
-# Series 2: THE HAUNTED CLOSET — Style Bible (short story, cute-spooky)
+# Series 2: THE HAUNTED CLOSET — Style Notebook (short story, cute-spooky)
 Paste this block into every Closet clip prompt.
 
 **Look:** cinematic, moody-but-cozy. Dim blue-violet closet light, warm lamp glow leaking under the door, volumetric dust in light beams, shallow depth of field, slow dolly moves, soft film grain. Cute-spooky, never gory or truly frightening. Vertical 9:16.

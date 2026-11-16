@@ -1,4 +1,4 @@
-# Series 3: THE ROOMMATE WARS — Style Bible (UGC-style POV skit)
+# Series 3: THE ROOMMATE WARS — Style Notebook (UGC-style POV skit)
 Paste this block into every Roommates clip prompt.
 
 **Look:** looks like a phone video shot in a real, slightly messy apartment kitchen: handheld, mild shake, natural window light, tabletop-level POV, quick punch-in zooms like a creator skit. Appliances have small expressive cartoon faces (simple eyes on the front panel), photoreal otherwise. Generic and unbranded, no logos. Vertical 9:16.

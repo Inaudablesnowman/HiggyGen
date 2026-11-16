@@ -1,4 +1,4 @@
-# Series 1: GERALD THE LINT ROLLER — Style Bible (3D animated)
+# Series 1: GERALD THE LINT ROLLER — Style Notebook (3D animated)
 Paste this block into every Gerald clip prompt.
 
 **Look:** original 3D cartoon, soft clay-like materials, warm laundry-room lighting, shallow depth of field, saturated but cozy palette (teal, mustard, warm gray). Not any studio's style or characters. Vertical 9:16. Smooth camera pushes and handheld-feeling whip pans.
