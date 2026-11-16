@@ -160,7 +160,7 @@ Output the score and reasoning for each video, e.g. `Hook 9 (motion + text promi
 **Characters**
 - **Gerald:** a tired middle-manager lint roller. Cylinder body with a **sheet of tacky tape** on the roller. Round wire glasses, a skinny **mustard-yellow necktie**, a tiny **white coffee mug** that is always nearly empty, heavy eyelids, slightly slumped posture. Small expressive eyes on the front of the roller head. Voice: dry, weary, soft-spoken, mid-30s office-guy energy.
 - **The Sock Gang** (chaotic, mischievous, love lint):
-  - **Argyle:** the leader, an argyle sock in tiny sunglasses, smooth talker.
+  - **Spence:** the leader, an argyle sock in tiny sunglasses, smooth talker.
   - **Tube:** a big white tube sock with two red stripes, dumb but loyal, gets scared of everything.
   - **Lefty:** a lone mismatched gray sock, sweet, always lost.
 - Recurring location: a laundry room with a folded-towel "desk," a rattling dryer, a basket, and the couch next door.
@@ -212,12 +212,12 @@ Change **one** variable per experiment. Do not post near-duplicate bodies with d
 1. (0-6s) Gerald slumps at the towel desk, sips an empty mug. Text: `MONDAY. AGAIN.` Dryer door rattles behind him.
 2. (6-12s) The dryer bursts open. The Sock Gang tumble out in slow motion in tiny sunglasses, trailing lint. Text: `THE SOCK GANG IS BACK`.
 3. (12-18s) Gerald sighs and rolls one stripe across a black hoodie. Clean stripe, lint collected on the tape. The socks gasp. (Generic demo of what a lint roller really does.)
-4. (18-24s) Argyle holds up a single sock: "Where's Lefty?" Gerald's face drops. Text: `PART 2: WHERE IS LEFTY?`
+4. (18-24s) Spence holds up a single sock: "Where's Lefty?" Gerald's face drops. Text: `PART 2: WHERE IS LEFTY?`
 - Cliffhanger: Lefty is missing.
 - CTA (Phase 0): `Follow for Part 2.`
 
 **Ep 2: "The Interrogation" (26s)** | Hook: `GERALD INTERROGATES A SOCK`
-Lint-trap interrogation room, a desk lamp in Argyle's face, Tube cracks instantly. Clue: Lefty went "behind the couch." Cliffhanger: a single sock hand reaches out of the dark with a note that says `HELP`.
+Lint-trap interrogation room, a desk lamp in Spence's face, Tube cracks instantly. Clue: Lefty went "behind the couch." Cliffhanger: a single sock hand reaches out of the dark with a note that says `HELP`.
 
 **Ep 3: "Behind The Couch" (28s)** | Hook: `NOBODY GOES BEHIND THE COUCH`
 Gerald descends with a flashlight into a dust-bunny ecosystem full of lost remotes, coins, and one cold fry. Finds Lefty, who has been adopted by friendly dust bunnies. Cliffhanger: the dust-bunny leader whispers, "We work for the Vacuum."
@@ -313,7 +313,7 @@ Character turnaround sheet, front / 3-4 / side, of "Gerald", an original 3D cart
 
 **Sock Gang**
 ```
-Character lineup sheet of three original 3D cartoon socks: "Argyle" (argyle sock, tiny sunglasses, smooth confident smirk), "Tube" (big white tube sock with two red stripes, wide worried eyes), "Lefty" (lone mismatched gray sock, sweet, slightly lost expression). Soft clay-like 3D materials, warm lighting, neutral gray background, consistent proportions, no text, no logos.
+Character lineup sheet of three original 3D cartoon socks: "Spence" (argyle sock, tiny sunglasses, smooth confident smirk), "Tube" (big white tube sock with two red stripes, wide worried eyes), "Lefty" (lone mismatched gray sock, sweet, slightly lost expression). Soft clay-like 3D materials, warm lighting, neutral gray background, consistent proportions, no text, no logos.
 ```
 
 **Mortimer + Hank**
@@ -347,9 +347,9 @@ Avoid: extra characters, brand logos, readable text other than the on-screen tex
 
 **Gerald Ep 1**
 - Shot 1 (6s): `Medium shot, slow push-in. Gerald slumps behind a folded-towel desk in a laundry room, sips from an empty tiny white mug and sighs. Behind him a dryer door rattles. On-screen text: "MONDAY. AGAIN." Audio: soft office hum, a weary sigh, dryer thump.`
-- Shot 2 (6s): `Wide low-angle shot. The dryer door bursts open in slow motion. Argyle (tiny sunglasses), Tube, and Lefty tumble out trailing wisps of lint. Argyle lands in a cool pose. On-screen text: "THE SOCK GANG IS BACK". Audio: dramatic whoosh, comedic slow-motion bass hit.`
+- Shot 2 (6s): `Wide low-angle shot. The dryer door bursts open in slow motion. Spence (tiny sunglasses), Tube, and Lefty tumble out trailing wisps of lint. Spence lands in a cool pose. On-screen text: "THE SOCK GANG IS BACK". Audio: dramatic whoosh, comedic slow-motion bass hit.`
 - Shot 3 (6s): `Close tracking shot. Gerald rolls a single stripe across a black hoodie, leaving a clean stripe and a gray strip of lint on his tape. The socks gasp in the background. Audio: satisfying tape-rip sound, tiny gasps.`
-- Shot 4 (6s): `Two-shot. Argyle holds up one empty sock hole. Argyle (voice): "Where's Lefty?" Gerald's face drops; his mug slips from his hand. On-screen text: "PART 2: WHERE IS LEFTY?". Audio: record-scratch, silence, tiny gasp.`
+- Shot 4 (6s): `Two-shot. Spence holds up one empty sock hole. Spence (voice): "Where's Lefty?" Gerald's face drops; his mug slips from his hand. On-screen text: "PART 2: WHERE IS LEFTY?". Audio: record-scratch, silence, tiny gasp.`
 
 **Haunted Closet Ep 1**
 - Shot 1 (6s): `Slow dolly-in on a closed closet door glowing with warm light underneath. Mortimer floats in front of it with a megaphone; Hank trembles beside him. Mortimer (theatrical whisper): "Welcome to the scariest room in the house." On-screen text: "THE SCARIEST ROOM IN THE HOUSE". Audio: low drone, creaky wood.`

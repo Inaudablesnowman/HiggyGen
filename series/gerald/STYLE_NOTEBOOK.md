@@ -6,7 +6,7 @@ Paste this block into every Gerald clip prompt.
 ## Characters
 - **Gerald:** tired middle-manager lint roller. Cylinder body with a sheet of tacky tape on the roller. Round wire glasses, skinny mustard-yellow necktie, tiny white coffee mug always nearly empty, heavy eyelids, slightly slumped. Small expressive eyes on the roller head. Voice: dry, weary, soft-spoken, mid-30s office-guy.
 - **The Sock Gang:**
-  - **Argyle:** leader, argyle sock in tiny sunglasses, smooth talker.
+  - **Spence:** leader, argyle sock in tiny sunglasses, smooth talker.
   - **Tube:** big white tube sock, two red stripes, dumb but loyal, scared of everything.
   - **Lefty:** lone mismatched gray sock, sweet, always lost.
 - **Location:** laundry room with a folded-towel "desk," rattling dryer, basket, and the couch next door.
@@ -18,7 +18,7 @@ Character turnaround sheet, front / 3-4 / side, of "Gerald", an original 3D cart
 ```
 **Sock Gang**
 ```
-Character lineup sheet of three original 3D cartoon socks: "Argyle" (argyle sock, tiny sunglasses, smooth confident smirk), "Tube" (big white tube sock with two red stripes, wide worried eyes), "Lefty" (lone mismatched gray sock, sweet, slightly lost expression). Soft clay-like 3D materials, warm lighting, neutral gray background, consistent proportions, no text, no logos.
+Character lineup sheet of three original 3D cartoon socks: "Spence" (argyle sock, tiny sunglasses, smooth confident smirk), "Tube" (big white tube sock with two red stripes, wide worried eyes), "Lefty" (lone mismatched gray sock, sweet, slightly lost expression). Soft clay-like 3D materials, warm lighting, neutral gray background, consistent proportions, no text, no logos.
 ```
 
 ## Hashtags / caption
