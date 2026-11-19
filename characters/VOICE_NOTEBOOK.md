@@ -1,7 +1,7 @@
 # VOICE + PERSONALITY NOTEBOOK (DRAFT, awaiting K3 picks)
 Goal: every character sounds and talks like nobody else on TikTok or in the crew. Reid is funny because of his dry, flat delivery, not his pitch. So each character gets its own base voice AND its own comedic delivery: **speech rhythm + verbal tic + catchphrase + sound signature**, written into every line.
 
-**Locked:** Doug = Reid (preset voice_id 66469f5a-10db-586a-bab1-72f6ee66ba69), unmodified. Brenda = Gia, Gerald = Barrett, Spence = Mark on ElevenLabs, Tube = Evan on ElevenLabs (see table). Nobody else is a Reid variant.
+**Locked:** Doug = Reid (preset voice_id 66469f5a-10db-586a-bab1-72f6ee66ba69), unmodified. Brenda = Gia, Gerald = Barrett, Spence = Mark on ElevenLabs, Tube = Evan on ElevenLabs, Lefty = Kiki on ElevenLabs v4 (see table). Nobody else is a Reid variant.
 
 | Character | Personality | Rhythm | Verbal tic | Catchphrase | Sound signature | Auditioned voices |
 |---|---|---|---|---|---|---|
@@ -12,6 +12,8 @@ Goal: every character sounds and talks like nobody else on TikTok or in the crew
 | **Tube** (sock) | dumb, loyal, panics | fast, repeats words | "uh oh uh oh" | "Was that the dryer?" | gulp + squeak | **Evan via ElevenLabs (LOCKED)**: model text2speech_v2, variant elevenlabs, preset voice_id f7a46aa0-183a-5327-b554-e71d8c0071bb, ~0.3 credit/line. Direction: panicky, breathless, caps/exclamation ("Uh oh uh oh UH OH. Was that the dryer?!"). Reference take job_id 311df4d9-6bb3-461f-994a-b60cc9e5645b. Rejected: Benji, Julian, Kevin, Jasper |
 | **Mortimer** (ghost) | theatrical tour guide, secretly soft | big pauses, announcer boom | "Behold!" | "Welcome to the scariest room in the house." | megaphone crackle | Xavier, Orion |
 | **Hank** (hanger) | anxious, apologizes for everything | rapid, breathless | says "sorry" every line | "Nobody ever sorts it." | wire rattle | Ian, Landon |
-| **Lefty** (sock) | sweet, lost | slow, wandering | ends sentences as questions | "Is this... the couch?" | tiny sniffle | not auditioned yet |
+| **Lefty** (sock, she/her) | sweet, lost, hopeful, always lost | slow, wandering, sing-song | ends sentences as questions | "Is this... the couch?" | tiny sniffle | **Kiki via ElevenLabs v4 (LOCKED)**: model elevenlabs_v4, preset voice_id 2d51d9d0-b2a4-5e8b-9c63-f310adafd5f7, stability 0.45, ~0.23 credit/line. Direction: [bright, hopeful, sing-song voice]. Reference take job_id bd9191cf-4e21-43f5-bf57-0f50a3bf3f80. Rejected: Ainsley, Zoe, Miles, Holden, Grady (as Lefty) |
 
 Rules: one tic + one catchphrase per character, every episode. Catchphrases repeat (that is what gets quoted in comments). No two characters share a rhythm. Presets only, no cloned real voices.
+
+**Rule (K3):** filter out AI-sounding voices. Never re-offer a rejected voice. Prefer ElevenLabs engines with delivery tags. Give every audition a distinct quirk.
