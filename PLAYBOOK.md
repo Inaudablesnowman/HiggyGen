@@ -46,3 +46,8 @@ Applies to every video, series episode, and ad (including the Black Friday portf
 - Log each "beat the last one" improvement here:
   - Roommate Wars Ep 1 v3: pace 2.5 w/s (v1 1.4, v2 3.3), 0.3 s gaps, captions held until the next line, hook flash + bass hit + crash zoom. Weaknesses still open: opening reuses two clips with zooms (no brand-new shock visual), Brenda's mouth may drift out of sync, no music yet.
 - Ads honesty rule: urgency and stock claims ("selling out", "low stock") must be true for real products; on fictional portfolio brands label the ad as a sample/concept.
+
+## Posting rules (K3, 2026-11-19)
+- Only draft/post on the **punintendedtv** TikTok channel in Buffer. Never touch any other channel (the Instagram `tryzagikonow` / Zagiko shop is completely unrelated; ignore it).
+- Default to **draft only**; publish only when K3 explicitly says to post.
+- Black Friday portfolio ads use a fictional brand and are labeled as sample/concept ads; no real-stock claims.
