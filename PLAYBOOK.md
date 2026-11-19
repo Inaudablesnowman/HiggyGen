@@ -25,7 +25,7 @@ Evidence note: sources are mostly creator/marketing blogs. TikTok does not publi
 **Gate before K3 sees a video (all must pass):**
 1. **Frame 0:** a face or object already moving, plus a visual or audio shock (crash zoom, flash, bass hit). No title card, no logo, no slow intro. First spoken line starts within 0.3 s.
 2. **Hook text:** 7 words or fewer, works with sound off. Opens an *open loop* (a question the viewer must see answered).
-3. **Dialogue pace:** at least 2.5 words per second. No gaps over 0.2 s unless it is a deliberate comedic beat. Squeeze internal pauses. Lines run one after another, never overlapping (K3 rule).
+3. **Dialogue pace (viewers must be able to follow):** 2.2-2.8 words per second, not faster. Squeeze dead air, but keep a 0.25-0.35 s gap between lines and a 0.4-0.5 s beat before each punchline. Each caption stays on screen until the next line starts. Lines run one after another, never overlapping (K3 rule). Too slow (1.4 w/s) reads as dead air; too fast (3.3 w/s) cannot be followed.
 4. **Stimulus rhythm:** something new every 1-2 s (cut, zoom, SFX, text). A bigger change (new location, twist, new sound) every 8-10 s.
 5. **Escalation:** at least 3 beats with rising stakes. Every punchline gets a sound hit + zoom + flash.
 6. **Surprise:** one unexpected turn per video. Vary the format between videos so it never feels predictable.
@@ -36,3 +36,4 @@ Evidence note: sources are mostly creator/marketing blogs. TikTok does not publi
 
 **Lesson log**
 - Roommate Wars Ep 1 v1 (2026-11-19): K3 said "pauses, no wow factor, not viral." Measured cause: dialogue ran about 1.4 words/s (target 2.5+), the opening was a text card then "say something" (no shock), no sound design until the end, and the opening reused the same two clips. Fix: speed dialogue up ~30% and squeeze pauses, punchier first line ("Doug. WE NEED TO TALK."), crash zoom + flash + bass hit at frame 0, slap/gasp on the hand grab, beeps + countdown, hard end on "PART 2".
+- Roommate Wars Ep 1 v2 (2026-11-19): K3 said "not too fast, viewers need to follow along." Cause: I over-corrected to 3.3 words/s with 0.12 s gaps. Target 2.2-2.8 w/s, gaps 0.3 s, a beat before punchlines, longer caption holds. Also: squeezing too hard removed the staccato pauses in "Look. It. Up."; keep ~0.16 s of silence inside lines.
