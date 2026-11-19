@@ -37,3 +37,12 @@ Evidence note: sources are mostly creator/marketing blogs. TikTok does not publi
 **Lesson log**
 - Roommate Wars Ep 1 v1 (2026-11-19): K3 said "pauses, no wow factor, not viral." Measured cause: dialogue ran about 1.4 words/s (target 2.5+), the opening was a text card then "say something" (no shock), no sound design until the end, and the opening reused the same two clips. Fix: speed dialogue up ~30% and squeeze pauses, punchier first line ("Doug. WE NEED TO TALK."), crash zoom + flash + bass hit at frame 0, slap/gasp on the hand grab, beeps + countdown, hard end on "PART 2".
 - Roommate Wars Ep 1 v2 (2026-11-19): K3 said "not too fast, viewers need to follow along." Cause: I over-corrected to 3.3 words/s with 0.12 s gaps. Target 2.2-2.8 w/s, gaps 0.3 s, a beat before punchlines, longer caption holds. Also: squeezing too hard removed the staccato pauses in "Look. It. Up."; keep ~0.16 s of silence inside lines.
+
+## STANDING RULE: every video and ad must beat the last one (K3, 2026-11-19)
+Applies to every video, series episode, and ad (including the Black Friday portfolio ads).
+- Before showing K3 anything, name **at least one concrete way it is better or more engaging than the previous one** (stronger hook, tighter pace, bigger payoff, new visual trick, better sound design, sharper caption, etc.).
+- List my **top 3 weaknesses** of the new piece and fix at least one before presenting; carry the rest into the next one.
+- Never repeat a hook, joke structure, or edit pattern from the last video without improving it.
+- Log each "beat the last one" improvement here:
+  - Roommate Wars Ep 1 v3: pace 2.5 w/s (v1 1.4, v2 3.3), 0.3 s gaps, captions held until the next line, hook flash + bass hit + crash zoom. Weaknesses still open: opening reuses two clips with zooms (no brand-new shock visual), Brenda's mouth may drift out of sync, no music yet.
+- Ads honesty rule: urgency and stock claims ("selling out", "low stock") must be true for real products; on fictional portfolio brands label the ad as a sample/concept.
