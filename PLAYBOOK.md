@@ -51,3 +51,4 @@ Applies to every video, series episode, and ad (including the Black Friday portf
 - Only draft/post on the **punintendedtv** TikTok channel in Buffer. Never touch any other channel (the Instagram `tryzagikonow` / Zagiko shop is completely unrelated; ignore it).
 - Default to **draft only**; publish only when K3 explicitly says to post.
 - Black Friday portfolio ads use a fictional brand and are labeled as sample/concept ads; no real-stock claims.
+  - Mugshot Mugs Ad 2 "Our Stock Is Falling" (2026-11-19, sample ad, code-drawn): beats Roommate Wars v3 with a pun-driven concept, a visual that changes every ~1 s, big number slams (-10%/-50%/-94%), a record-scratch flip from red to green on "Wait, no.", ka-ching hits, a "SAMPLE AD" tag, and a near-zero credit cost (voiceover only). Pace 2.24 w/s. Weaknesses still open: no real product footage, flat 2D look, no music, mugs only change expression (frown -> smile).
