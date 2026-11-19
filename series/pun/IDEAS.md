@@ -13,4 +13,4 @@ Format: ~15-25 s code-drawn "what if" / talking-object skits (cost ~0.3 credit e
 | 8 | Clock Case (series) | done: Ep 1 draft on punintendedtv; Ep 2 "Deja Brew" next | see plan | | |
 
 Ranking for first batch: 1 (Banana), 2 (Stapler), 3 (Sole Mate). Then 4, 5. Keep 6-7 in reserve.
-Rules: draft only on punintendedtv; AI label ON; no brands/real people; no sample-ad tag needed (not ads).
+Rules: draft only on punintendedtv; AI label ON; no brands/real people.

@@ -39,20 +39,15 @@ Evidence note: sources are mostly creator/marketing blogs. TikTok does not publi
 - Roommate Wars Ep 1 v2 (2026-11-19): K3 said "not too fast, viewers need to follow along." Cause: I over-corrected to 3.3 words/s with 0.12 s gaps. Target 2.2-2.8 w/s, gaps 0.3 s, a beat before punchlines, longer caption holds. Also: squeezing too hard removed the staccato pauses in "Look. It. Up."; keep ~0.16 s of silence inside lines.
 
 ## STANDING RULE: every video and ad must beat the last one (K3, 2026-11-19)
-Applies to every video, series episode, and ad (including the Black Friday portfolio ads).
 - Before showing K3 anything, name **at least one concrete way it is better or more engaging than the previous one** (stronger hook, tighter pace, bigger payoff, new visual trick, better sound design, sharper caption, etc.).
 - List my **top 3 weaknesses** of the new piece and fix at least one before presenting; carry the rest into the next one.
 - Never repeat a hook, joke structure, or edit pattern from the last video without improving it.
 - Log each "beat the last one" improvement here:
   - Roommate Wars Ep 1 v3: pace 2.5 w/s (v1 1.4, v2 3.3), 0.3 s gaps, captions held until the next line, hook flash + bass hit + crash zoom. Weaknesses still open: opening reuses two clips with zooms (no brand-new shock visual), Brenda's mouth may drift out of sync, no music yet.
-- Ads honesty rule: urgency and stock claims ("selling out", "low stock") must be true for real products; on fictional portfolio brands label the ad as a sample/concept.
 
 ## Posting rules (K3, 2026-11-19)
 - Only draft/post on the **punintendedtv** TikTok channel in Buffer. Never touch any other channel (the Instagram `tryzagikonow` / Zagiko shop is completely unrelated; ignore it).
 - Default to **draft only**; publish only when K3 explicitly says to post.
-- Black Friday portfolio ads use a fictional brand and are labeled as sample/concept ads; no real-stock claims.
-  - Mugshot Mugs Ad 2 "Our Stock Is Falling" (2026-11-19, sample ad, code-drawn): beats Roommate Wars v3 with a pun-driven concept, a visual that changes every ~1 s, big number slams (-10%/-50%/-94%), a record-scratch flip from red to green on "Wait, no.", ka-ching hits, a "SAMPLE AD" tag, and a near-zero credit cost (voiceover only). Pace 2.24 w/s. Weaknesses still open: no real product footage, flat 2D look, no music, mugs only change expression (frown -> smile).
 
 ## Strategy update (K3, 2026-11-19)
-- No more sample/Black Friday ads. Focus: funny, shareable pun comedy on punintendedtv to earn shares and follows first; affiliate products come later. Idea bank: series/pun/IDEAS.md.
 - Cheap volume format: code-drawn skits (voiceover ~0.3 credit each) so 3/day is affordable; mix in video-clip pieces only when worth the credits.
