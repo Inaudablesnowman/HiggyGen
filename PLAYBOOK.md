@@ -69,3 +69,11 @@ Each step is recorded pass/fail in a QA report shown to K3 with the video. A fai
 13. **Post-mortem at 24-48 h:** pull results (Buffer metrics plus K3's TikTok analytics: 3-second hold, average watch, completion, rewatches, shares, follows), log them in TRACKING_LOG.md, and update this playbook with one change to test next.
 
 **Best-time rules (honest version):** there is no performance data yet, so "best time" starts as a reasonable guess, not a fact. Start with Buffer's three daily slots (06:44, 12:44, 21:44 Boise time). Spread posts across all three. After about 10 posts, compare views and 3-second hold by slot and move future posts toward the winners. Check TikTok's own analytics for when the audience is active.
+
+## Scheduling gate (K3, 2026-11-21)
+Nothing is scheduled on Buffer until `python3 assets/tools/post_gate.py episodes/<slug>/QA_REPORT.json` exits 0: steps 1-11 pass, Hook and Hold at least 8, qa_video.py passed, channel is punintendedtv, AI label on, and K3 approved. Otherwise the post stays a draft.
+
+## Generation engine notes (2026-11-21)
+- This repo (HiggyGen) is already Open Generative AI v2.0.0 by Anil Chandra Naidu Matcha; there is nothing to replace.
+- It runs without an API key only as the DESKTOP app with Local Models (sd.cpp images; Wan2GP video needs an NVIDIA/AMD GPU, 480p, slow). The web version needs a MuAPI key. It has no voice engine.
+- It cannot run in the cloud sandbox (no GPU, no GUI). It would run on K3's computer.
