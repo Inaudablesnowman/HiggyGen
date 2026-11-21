@@ -51,3 +51,21 @@ Evidence note: sources are mostly creator/marketing blogs. TikTok does not publi
 
 ## Strategy update (K3, 2026-11-19)
 - Cheap volume format: code-drawn skits (voiceover ~0.3 credit each) so 3/day is affordable; mix in video-clip pieces only when worth the credits.
+
+## POST PIPELINE (K3 rule, 2026-11-21): every post goes through ALL of these steps, no exceptions
+Each step is recorded pass/fail in a QA report shown to K3 with the video. A failed step is fixed and re-run before moving on.
+1. **Concept check:** the pun lands without explanation; hook text 7 words or fewer; an open loop in the first 2 s.
+2. **Script clarity:** read aloud, plain words, one idea per line, no tongue-twisters; pace 2.2-2.8 words/s; numbers and symbols spelled out for the voice.
+3. **Rules and safety:** AI-generated label ON; no brands, logos, real people, copyrighted music, or false claims; Trevor never shown; correct channel (punintendedtv only).
+4. **Voice take check:** transcribe the take and compare to the script (no tags read aloud, no missing or extra words); re-voice once if it does not match.
+5. **Audio QA:** loudness -17 to -13 LUFS, true peak at or below -1 dBFS, lines never overlap, 0.25-0.35 s gaps, no dead air over 0.7 s, sound effects never mask the voice.
+6. **Visual QA:** look at frames at 0 s, every beat, and the last frame; captions fully on screen and readable; no missing-glyph boxes; characters consistent; nothing cut off.
+7. **Technical QA:** run `python3 assets/tools/qa_video.py <file>` (1080x1920, 24-60 fps, 12-35 s, audio present, decodes to the end, size); upload returns HTTP 200 and is confirmed.
+8. **Virality pass:** score against the VIRAL CHECKLIST; Hook and Hold both 8 or higher; name one concrete way it beats the previous video; list the top 3 weaknesses and fix at least one before showing it.
+9. **Caption and hashtags:** engaging caption with a share or comment trigger, 3-5 relevant hashtags including #AIgenerated, title set, no unsupported claims.
+10. **Best-time slot:** choose the posting slot (see rules below), never more than 3 posts/day, at least 4 hours apart, rotate formats so two of the same kind are never back to back.
+11. **Buffer staging:** create it on punintendedtv, then read it back with get_post: right channel, right video, right duration, AI flag on, caption correct. Keep scheduled posts at or under Buffer's cap of 10.
+12. **Approval and scheduling:** K3 sees the QA report and says go; only then schedule (dueAt in the account timezone, America/Boise), and verify with get_post that status is scheduled at the right time. Default is draft only until K3 says otherwise.
+13. **Post-mortem at 24-48 h:** pull results (Buffer metrics plus K3's TikTok analytics: 3-second hold, average watch, completion, rewatches, shares, follows), log them in TRACKING_LOG.md, and update this playbook with one change to test next.
+
+**Best-time rules (honest version):** there is no performance data yet, so "best time" starts as a reasonable guess, not a fact. Start with Buffer's three daily slots (06:44, 12:44, 21:44 Boise time). Spread posts across all three. After about 10 posts, compare views and 3-second hold by slot and move future posts toward the winners. Check TikTok's own analytics for when the audience is active.
